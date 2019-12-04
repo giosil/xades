@@ -165,7 +165,7 @@ namespace xades
                 return sXMLSignature;
             }
 
-            String sOutput = System.Text.Encoding.Default.GetString(fileC14NXML);
+            String sOutput = System.Text.Encoding.Default.GetString(fileXML);
             String sSingatureCodeTag = "</signatureCode>";
             int iSignatureCode = sOutput.IndexOf(sSingatureCodeTag);
             if (iSignatureCode > 0)
