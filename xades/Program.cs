@@ -23,7 +23,7 @@ namespace xades
                 Console.WriteLine("Press any key to exit...");
                 Console.ReadKey();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.Error.WriteLine("Exception: " + ex);
             }
